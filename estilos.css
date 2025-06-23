@@ -1,46 +1,46 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
 }
 
 h1 {
-  text-align: center;
-  color: #333;
+    text-align: center;
+    color: #333;
 }
 
 #entrada-nueva {
-  width: 100%;
-  height: 80px;
-  padding: 10px;
-  font-size: 16px;
-  box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
 #agregar-btn {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 #agregar-btn:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 #historial {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .entrada {
-  background-color: white;
-  padding: 15px;
-  border-left: 4px solid #007bff;
-  margin-bottom: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }

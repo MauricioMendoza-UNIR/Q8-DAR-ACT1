@@ -1,34 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>UNIR - DAR - Actividad 1 - Mauricio Mendoza</title>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-  <h1>UNIR. Desarrollo de Aplicaciones en Red</h1>
-  <h2>Blog UNIR</h2>
+    <head>
+        <meta charset="UTF-8" />
+        <title>UNIR - DAR - Actividad 1 - Mauricio Mendoza</title>
+        <link rel="stylesheet" href="estilos.css" />
+    </head>
+    <body>
+        <h1>UNIR. Desarrollo de Aplicaciones en Red</h1>
+        <h2>Blog UNIR</h2>
 
-  <textarea id="entrada-nueva" placeholder="Escribe tu nueva entrada aquí..."></textarea><br>
-  <button id="agregar-btn">Agregar entrada</button>
+        <textarea id="entrada-nueva" placeholder="Escribe tu nueva entrada aquí..."></textarea><br />
+        <button id="agregar-btn">Agregar entrada</button>
 
-  <div id="historial" />
+        <div id="historial" />
 
-  <script>
-    const boton = document.getElementById("agregar-btn");
-    const entradaInput = document.getElementById("entrada-nueva");
-    const historial = document.getElementById("historial");
-
-    boton.addEventListener("click", () => {
-      const texto = entradaInput.value.trim();
-      if (texto !== "") {
-        const nuevaEntrada = document.createElement("div");
-        nuevaEntrada.classList.add("entrada");
-        nuevaEntrada.textContent = texto;
-        historial.prepend(nuevaEntrada);
-        entradaInput.value = "";
-      }
-    });
-  </script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
